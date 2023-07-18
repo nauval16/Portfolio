@@ -626,6 +626,45 @@ section .title::after{
   color: crimson;
   background: none;
 }
+.button {
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.contact-form textarea {
+    width: 100%;
+    scroll-padding: 10px;
+    border: 3px solid #050505;
+    border-radius: 10px;
+    resize: vertical;
+    min-height: 100px;;
+}
+.contact-form button {
+  
+    color: #fff;
+    display: block;
+    width: 160px!important;
+    height: 45px;
+   outline: none;  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
 /* footer section styling */
 footer{
     background: #111;
